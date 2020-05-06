@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import styled, { createGlobalStyle } from 'styled-components';
 
 import githubBackground from '../assets/github-background.svg';
 
@@ -27,3 +27,5 @@ button {
   cursor: pointer;
 }
 `;
+
+export const Repositories = styled.div``;
